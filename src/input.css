@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+h2 {
+  font-family: "Playfair Display", serif;
+}
+
+/* CSS Umum */
+.main-container {
+  text-align: left;
+  margin-left: 95px;
+  position: relative; /* Menggunakan posisi relatif */
+  top: 140px; /* Menambah jarak lebih besar dari atas */
+}
